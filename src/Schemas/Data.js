@@ -1,139 +1,161 @@
 export const Data = {
-  profile: {
-    name: "Matias Lagos",
-    ocupation: "FullStack Software Developer",
-    location: "Santiago, Chile",
-    email: "lagos.matias25@gmail.com",
-    telephone: "+56 971999705",
-    image: "images/90208122_10222269974249078_3631065450546200576_n.jpg",
-  },
-  aboutMe: {
-    label: "Perfil",
-    description:
-      "Analista Programador, capacitado para desarrollar aplicaciones informáticas en diversas tecnologías y múltiples lenguajes de programación, aplicando metodologías ágiles de desarrollo, incluyendo identificación de necesidades y diseños de sistemas basados en modelos de desarrollo.",
-  },
-  skills: {
-    technicalLabel: "Tecnologías",
-    softLabel: "Skills",
-    technicalSkills: [
-      "Angular",
-      "React",
-      "Java",
-      "Nodejs",
-      "Spring Boot",
-      "Nestjs",
-      "APIM",
-      "SQL",
-      "Git",
-    ],
-    softSkills: [
-      "Capacidad de análisis",
-      "Resolución de Problemas",
-      "Pensamiento Crítico",
-      "Trabajo en equipo",
-      "Comunicación",
-      "Proactividad",
-      "Creatividad",
-      "Autodidacta",
-      "Mentoria",
-    ],
-  },
-  socialMedia: {
-    label: "SOCIAL",
-    social: [
-      {
-        label: "Maaato",
-        name: "linkedin",
-        url: "https://www.linkedin.com/in/matias-alfonso-lagos-gajardo",
-        className: "bxl-linkedin-square",
-      },
-      {
-        label: "Maaato",
-        name: "github",
-        url: "https://github.com/Maaato",
-        className: "bxl-github",
-      },
-      {
-        label: "Maaato",
-        name: "twiiter",
-        url: "https://twitter.com/I_Maaato",
-        className: "bxl-twitter",
-      },
-    ],
-  },
-  experience: {
-    works: [
-      {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2021 - Actualidad",
-        company: "Banco Ripley",
-        description: [
-          "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
-          "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+    profile: {
+        name: "Uzair Kamal",
+        ocupation: "FullStack Software Developer",
+        location: "Brussels Belgium",
+        email: "uzairkamal@yahoo.com",
+        telephone: "+32 467665587",
+        image: "images/IMG_0105.jpg",
+    },
+    aboutMe: {
+        label: "Profile",
+        description:
+            "A results-driven, customer-focused, articulate and analytical Software Engineer who can think “out of the box”. Strong in\n" +
+            "design and integration problem solving skills. Expert in software development with database analysis and design.\n" +
+            "Skilled in developing business plans, requirements specifications, user documentation, and architectural systems research.\n" +
+            "Strong written and verbal communications. Interested in a challenging technical track career in an application development\n" +
+            "environment.",
+    },
+    skills: {
+        technicalLabel: "Technologies",
+        softLabel: "Skills",
+        technicalSkills: [
+            "Core Java",
+            "JavaEE(Servlets/JSP)",
+            "Spring",
+            "JSF/RichFaces/Icefaces",
+            "Test Driven and Behaviour Driven Developement",
+            "Junit4/5,Mockito,Pact" +
+            "\nCucumber,Serenity,Cluecumber," +
+            "\nWiremock,RestAssured",
+            "Docker,Jenkins,Ansible",
+            "React/ExtJs/JQuery/Prototype/JS",
+            "SQL/Oracle/Postgres/mySQL," +
+            "\nHibernate,JPA,Liquibase",
+            "Sonar,Fortify,whitesource",
+            "ApacheSolr,Lucene",
+            "Scrum/Agile/LESS/XtremeProgramming",
+            "Git,Maven",
+            "Familiar: Android/C#/C/C++"
         ],
-      },
-      {
-        title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Oct. 2021",
-        company: "Altiuz",
-        description: [
-          "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-          "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+        softSkills: [
+            "Analysis capacity",
+            "Problem resolution",
+            "Quality Assurance",
+            "Customer Focused",
+            "Critical thinking",
+            "Teamwork",
+            "Communication",
+            "Proactivity",
+            "Creativity",
+            "Mentorship",
         ],
-      },
-    ],
-    academic: [
-      {
-        career: "Técnico de Nivel Superior Analista Programador",
-        date: "2019",
-        institution: "Universidad Tecnológica de Chile INACAP",
-      },
-    ],
-    proyects: [
-      {
-        name: "Onboarding Digital",
-        company: "Banco de Chile",
-        period: "Nov. 2019 - Ene. 2020",
-        description: [
-          "Control, desarrollo, securitización y despliegue de APIs en plataforma IBM API Connect.",
+    },
+    socialMedia: {
+        label: "SOCIAL",
+        social: [
+            {
+                label: "Uzair",
+                name: "linkedin",
+                url: "https://www.linkedin.com/in/engruzairkamal",
+                className: "bxl-linkedin-square",
+            },
+            {
+                label: "Uzair",
+                name: "github",
+                url: "https://github.com/UzairKamalYZ",
+                className: "bxl-github",
+            },
+            {
+                label: "Uzair",
+                name: "blog",
+                url: "https://uzairkamal.wordpress.com/",
+                className: "bxl-wordpress",
+            },
         ],
-      },
-      {
-        name: "Captación Digital",
-        company: "Banco Ripley",
-        period: "Ene. 2020 - Feb. 2020",
-        description: [
-          "Control, desarrollo y securitización de APIs en plataforma IBM API Connect.",
-          "Desarrollo frontend en Angular para el consumo de Web Services SOAP/REST apuntando a ambientes DEV/PRE-PROD/PROD como simulación.",
+    },
+    experience: {
+        works: [
+            {
+                title: "Software Engineer",
+                period: "July. 2017 - Present",
+                company: "Isabel Group | Brussels",
+                description: [
+                    "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
+                    "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
+                    "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+                ],
+            },
+            {
+                title: "Software Engineer",
+                period: "May. 2017 - June. 2017",
+                company: "Ansell HealthCare | Brussels",
+                description: [
+                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
+                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                ],
+            },{
+                title: "Software Engineer",
+                period: "Feb. 2016 - Dec. 2019",
+                company: "Xorlogics | Brussels",
+                description: [
+                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
+                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                ],
+            },{
+                title: "Software Engineer",
+                period: "Feb. 2016 - Dec. 2016",
+                company: "Sentiance | Remote(Antwerp,Islamabad)",
+                description: [
+                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
+                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                ],
+            },{
+                title: "Software Engineer",
+                period: "Jan.2013 - Jan. 2016",
+                company: "Interactive Group | Islamabad",
+                description: [
+                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
+                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                ],
+            },{
+                title: "Associate Software Engineer",
+                period: "Jan.2011 - Jan. 2013",
+                company: "Jabs Solutions | Sanmar(USA) | Islamabad",
+                description: [
+                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
+                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                ],
+            },{
+                title: "Jr. Software Engineer",
+                period: "Nov.2009 - Jan.2011",
+                company: "Jabs Solutions | Sanmar(USA) | Islamabad",
+                description: [
+                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
+                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                ],
+            },
         ],
-      },
-      {
-        name: "Agendamiento Remoto",
-        company: "Gobierno de Chile",
-        period: "Mar. 2020 - May. 2020",
-        description: [
-          "Desarrollo frontend y mobile con las tecnologias de Angular 6 e Ionic 4 para el agendamiento de horas en centros a lo largo de todo Chile.",
+        academic: [
+            {
+                career: "MS Computer Science",
+                date: "2016",
+                institution: "Bahria University Islamabad",
+            },{
+                career: "BS Computer Engineering",
+                date: "2009",
+                institution: "University of Engineering & Technologies Peshawar",
+            },
         ],
-      },
-      {
-        name: "Altiuz Report Dynamic",
-        company: "Altiuz",
-        period: "Jun. 2020 - Jul. 2020",
-        description: [
-          "Desarrollo de servicio Java para la generación unitaria de documentos, sin la necesidad de tener almacenada la información del mismo en una fuente de datos.",
+        proyects: [
+            // {
+            //     name: "Onboarding Digital",
+            //     company: "Banco de Chile",
+            //     period: "Nov. 2019 - Ene. 2020",
+            //     description: [
+            //         "Control, desarrollo, securitización y despliegue de APIs en plataforma IBM API Connect.",
+            //     ],
+            // }
         ],
-      },
-      {
-        name: "Desarrollos Tigo",
-        company: "Computec S.A.S",
-        period: "Ago. 2020 - Dic 2020",
-        description: [
-          "Desarrollo Java/Spring Boot de Web Service API REST para consulta y descarga de documentos almacenados en repositorios IBM CMOD.",
-          "Desarrollo Java CRON para transferencia de documentos XML hacia servidor SFTP.",
-          "Desarrollo Java CRON para carga de documentos PDFs hacia Azure Blob Storage.",
-        ],
-      },
-    ],
-  },
+    },
 };
