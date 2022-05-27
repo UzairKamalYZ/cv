@@ -1,4 +1,5 @@
 import React from "react";
+import parse from "html-react-parser";
 import { Description } from "./Description";
 export const Works = ({ works }) => {
   return (
@@ -23,9 +24,11 @@ const Work = ({ title, period, company, description }) => {
       <div className="experience__data bd-grid">
         <h3 className="experience__title">{title}</h3>
         <span className="experience__company">
-          {period} | {company}
+          {parse(period)}  {parse(company)}
         </span>
-        {description.map((desc,i) => <Description  key={i} desc={desc}/>)}
+        {
+            description.map((desc,i) => <Description  key={i} desc={parse(desc)}/>)
+        }
       </div>
     </div>
   );

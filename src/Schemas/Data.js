@@ -23,19 +23,19 @@ export const Data = {
             "Core Java",
             "JavaEE(Servlets/JSP)",
             "Spring",
-            "JSF/RichFaces/Icefaces",
+            "JSF(RichFaces,Icefaces)",
             "Test Driven and Behaviour Driven Developement",
             "Junit4/5,Mockito,Pact" +
             "\nCucumber,Serenity,Cluecumber," +
             "\nWiremock,RestAssured",
             "Docker,Jenkins,Ansible",
             "React/ExtJs/JQuery/Prototype/JS",
-            "SQL/Oracle/Postgres/mySQL," +
+            "SQL,Oracle,Postgres,mySQL," +
             "\nHibernate,JPA,Liquibase",
             "Sonar,Fortify,whitesource",
-            "ApacheSolr,Lucene",
-            "Scrum/Agile/LESS/XtremeProgramming",
+            "Scrum,Agile,LESS,XtremeProgramming",
             "Git,Maven",
+            "ApacheSolr,Lucene",
             "Familiar: Android/C#/C/C++"
         ],
         softSkills: [
@@ -78,12 +78,14 @@ export const Data = {
         works: [
             {
                 title: "Software Engineer",
-                period: "July. 2017 - Present",
-                company: "Isabel Group | Brussels",
+                period: "July.2017 - Present<BR>",
+                company: "<strong><u><a href='https://www.isabelgroup.eu/en/'>Isabel Group</a> </u><br> Brussels</strong>",
                 description: [
-                    "Desarrollo y mejora continua de microservicios REST en Java y Node.js(JS/TS).",
-                    "Desarrollo y mejora continua de PWA en las tecnologías Angular, Ionic y Cordova.",
-                    "Canalización CI/CD con Bitbucket, Jenkins y AWS como infraestructura."
+                    "Development and maintenance of Multi-Banking application with huge customer base.",
+                    "Applying modern day techniques for refactoring and keeping product quality upto the" +
+                    " mark. Feature development using TDD/BDD along with Agile mentality & Xtreme programing approaches.",
+                    "<b>Technologies</b>: <i>Java, Oracle, Jenkins, Gitlab, Stash, JIRA, Docker,\n" +
+                    "\t\t Junit, Pact, Selenium, Keycloak, Vault,Agile(Less)</i>"
                 ],
             },
             {
