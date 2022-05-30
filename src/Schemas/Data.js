@@ -33,10 +33,10 @@ export const Data = {
             "SQL,Oracle,Postgres,mySQL," +
             "\nHibernate,JPA,Liquibase",
             "Sonar,Fortify,whitesource",
-            "Scrum,Agile,LESS,XtremeProgramming",
+            "Agile,Scrum,LESS,XtremeProgramming",
             "Git,Maven",
-            "ApacheSolr,Lucene",
-            "Familiar: Android/C#/C/C++"
+            "<small>Familiarity:<br><i>ElasticSearch, BigData stack, <br>Machine Learning Stack,<br> Android/C#/C/C++/Python" +
+            ", ApacheSolr,Lucene</small></i>"
         ],
         softSkills: [
             "Analysis capacity",
@@ -55,19 +55,19 @@ export const Data = {
         label: "SOCIAL",
         social: [
             {
-                label: "Uzair",
+                label: "engruzairkamal",
                 name: "linkedin",
                 url: "https://www.linkedin.com/in/engruzairkamal",
                 className: "bxl-linkedin-square",
             },
             {
-                label: "Uzair",
+                label: "UzairKamalYZ",
                 name: "github",
                 url: "https://github.com/UzairKamalYZ",
                 className: "bxl-github",
             },
             {
-                label: "Uzair",
+                label: "UzairKamal",
                 name: "blog",
                 url: "https://uzairkamal.wordpress.com/",
                 className: "bxl-wordpress",
@@ -77,73 +77,96 @@ export const Data = {
     experience: {
         works: [
             {
-                title: "Software Engineer",
+                title: "Sr. Software Engineer",
                 period: "July.2017 - Present<BR>",
-                company: "<strong><u><a href='https://www.isabelgroup.eu/en/'>Isabel Group</a> </u><br> Brussels</strong>",
+                company: "<h4><strong><u>Isabel Group </u><br> Brussels</strong></h4>",
                 description: [
-                    "Development and maintenance of Multi-Banking application with huge customer base.",
-                    "Applying modern day techniques for refactoring and keeping product quality upto the" +
-                    " mark. Feature development using TDD/BDD along with Agile mentality & Xtreme programing approaches.",
-                    "<b>Technologies</b>: <i>Java, Oracle, Jenkins, Gitlab, Stash, JIRA, Docker,\n" +
-                    "\t\t Junit, Pact, Selenium, Keycloak, Vault,Agile(Less)</i>"
+                    " > Development and maintenance of Multi-Banking application with huge customer base.",
+                    " > Applying modern day techniques for refactoring and keeping product quality upto the mark.",
+                    " > Working within agile teams with XP approaches",
+                    " > develop and maintain by applying test-driven & behaviour-driven development approaches with focus on quality. ",
+                    "<strong>Technologies</strong>: <i>Java, Spring, Spring-Boot{Rest,Aop,Data,security}," +
+                    " Oracle, Jenkins, Gitlab, Stash, JIRA, Docker,\n" +
+                    "Junit4/5, Cucumber, Gherkin, Serenity, Cluecumber," +
+                    " WhiteSource, Pact, Selenium, Keycloak, Vault, Agile(Less/Scrum)," +
+                    " Openshift, Websphere, Vault," +
+                    " reactJs, ExtJs, KeyCloak(basics)  </i>"
                 ],
             },
             {
                 title: "Software Engineer",
-                period: "May. 2017 - June. 2017",
-                company: "Ansell HealthCare | Brussels",
+                period: "May. 2017 - June. 2017<BR>",
+                company: "<h4><Strong><u>Ansell HealthCare | Xorlogics</u></Strong> <br> Brussels</h4>",
                 description: [
-                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+
+                    " > Development of Project Management tool with support of back-end SmartSheet APIs",
+                    " > Managed whole project end to end",
+                    " > Requirement gathering and mockup creation for Project",
+                    " > Developing complete flow with focus on quality",
+                    " > Deployment on Azure Cloud ",
+                    "<strong>Technologies</strong>: <i>Java, AngularJs, SmartSheet, Bootstrap, Azure-Cloud" +
+                    "<i>"
+
                 ],
-            },{
+            }, {
                 title: "Software Engineer",
-                period: "Feb. 2016 - Dec. 2019",
-                company: "Xorlogics | Brussels",
+                period: "Dec. 2016 - May. 2017</br>",
+                company: "<h4><Strong><u>NYU | Xorlogics</u></Strong> <br> AbuDhabi</h4>",
                 description: [
-                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                    " > Android base application developement for collecting user feedbacks ",
+                    " > Managed whole project end to end",
+                    " > Designing user feedback screens",
+                    " > Development of backend for feedback collection"
                 ],
-            },{
+            }, {
+                title: "Data Engineer",
+                period: "Feb. 2016 - Dec. 2016</br>",
+                company: "<h4><Strong><u>Sentiance | Xorlogics</u></Strong> <br> Islamabad(Remote)-Antwerp</h4>",
+                description: [
+                    " > Development of new features in application with base in BigData",
+                    " > managed the deployments and environment for data heavy application",
+                    "<strong>Technologies</strong>: <i>Java, ApacheHadoop, ApacheKafka, AWS Cloud, Docker," +
+                    "Ansible, ApacheSpark, ApacheStorm, Lambda Architecture, Python" +
+                    "<i>"
+
+                ],
+            }, {
                 title: "Software Engineer",
-                period: "Feb. 2016 - Dec. 2016",
-                company: "Sentiance | Remote(Antwerp,Islamabad)",
+                period: "Jan.2013 - Jan. 2016</br>",
+                company: "<h4><Strong><u>Interactive Group </u></Strong><br> Islamabad</h4>",
                 description: [
-                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                    " > Development of an AI powered search engine ",
+                    " > Data Collection and training model with Machine Learning techniques",
+                    " > Advance searching based on similarity, phonetics," +
+                    " context, occurrences and strength of relationship between documents. "
                 ],
-            },{
-                title: "Software Engineer",
-                period: "Jan.2013 - Jan. 2016",
-                company: "Interactive Group | Islamabad",
-                description: [
-                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
-                ],
-            },{
+            }, {
                 title: "Associate Software Engineer",
-                period: "Jan.2011 - Jan. 2013",
-                company: "Jabs Solutions | Sanmar(USA) | Islamabad",
+                period: "Feb2011- Dec2012</br>",
+                company: "<h4><strong><u>Jabs Solutions | Sanmar.com </u></strong><br> Islamabad</h4>",
                 description: [
-                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                    " > Developement of new features and maintenace of Sanmar.com",
+                    " > Developement of 'Design Center' in sanmar.com",
+                    "<strong>Technologies</strong>: <i>Java, jQuery, Oracle" +
+                    "<i>"
                 ],
-            },{
-                title: "Jr. Software Engineer",
-                period: "Nov.2009 - Jan.2011",
-                company: "Jabs Solutions | Sanmar(USA) | Islamabad",
+            }, {
+                title: "Junior Software Engineer",
+                period: "Nov2009- Feb2011</br>",
+                company: "<hr><Strong><u>Pakvista Tech </u></Strong><br> Islamabad</h4>",
                 description: [
-                    "Desarrollo de Web Services REST en Java y Nodejs(JS/TS) acompañado de diferentes motores de BD como Mysql, Oracle, MariaDB, MongoDB e IBM API Connect y 3scale como API Gateway.",
-                    "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+                    " > Developement new feature for Railways Tracking system",
+                    "<strong>Technologies</strong>: <i>Java, JSF(IceFace, Vaddin)" +
+                    "<i>"
                 ],
-            },
+            }
         ],
         academic: [
             {
                 career: "MS Computer Science",
                 date: "2016",
                 institution: "Bahria University Islamabad",
-            },{
+            }, {
                 career: "BS Computer Engineering",
                 date: "2009",
                 institution: "University of Engineering & Technologies Peshawar",

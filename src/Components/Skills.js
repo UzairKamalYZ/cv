@@ -1,4 +1,5 @@
 import React from "react";
+import parse from "html-react-parser";
 
 export const Skills = ({
   technicalLabel,
@@ -12,7 +13,7 @@ export const Skills = ({
         <h2 className="section-title">{technicalLabel}</h2>
         <div className="skills__content bd-grid">
           <ul className="skills__data">
-            {technicalSkills.map((skill) => <Skill key={skill} skill={skill} />)}
+            {technicalSkills.map((skill) => <Skill key={skill} skill={parse(skill)} />)}
           </ul>
         </div>
       </section>
