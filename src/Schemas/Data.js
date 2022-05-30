@@ -4,7 +4,7 @@ export const Data = {
         ocupation: "FullStack Software Developer",
         location: "Brussels Belgium",
         email: "uzairkamal@yahoo.com",
-        telephone: "+32 467665587",
+        telephone: "+32 46X XX XX XX",
         image: "images/IMG_0105.jpg",
     },
     aboutMe: {
