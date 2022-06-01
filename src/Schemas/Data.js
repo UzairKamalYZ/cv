@@ -32,8 +32,9 @@ export const Data = {
             "React/ExtJs/JQuery/Prototype/JS",
             "SQL,Oracle,Postgres,mySQL," +
             "\nHibernate,JPA,Liquibase",
-            "Sonar,Fortify,whitesource",
-            "Agile,Scrum,LESS,XtremeProgramming",
+            "Sonar,Fortify,WhiteSource",
+            "OpenApi, JsonApi, Swagger, ",
+            "Agile,Scrum,LESS,XP",
             "Git,Maven",
             "<small>Familiarity:<br><i>ElasticSearch, BigData stack, <br>Machine Learning Stack,<br> Android/C#/C/C++/Python" +
             ", ApacheSolr,Lucene</small></i>"
@@ -88,6 +89,7 @@ export const Data = {
                     "<strong>Technologies</strong>: <i>Java, Spring, Spring-Boot{Rest,Aop,Data,security}," +
                     " Oracle, Jenkins, Gitlab, Stash, JIRA, Docker,\n" +
                     "Junit4/5, Cucumber, Gherkin, Serenity, Cluecumber," +
+                        "OpenApi, JsonApi-Specs, Swagger,"+
                     " WhiteSource, Pact, Selenium, Keycloak, Vault, Agile(Less/Scrum)," +
                     " Openshift, Websphere, Vault," +
                     " reactJs, ExtJs, KeyCloak(basics)  </i>"
