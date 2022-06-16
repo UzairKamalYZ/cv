@@ -25,7 +25,8 @@ export const Profile = ({
             <i className="bx bx-map home__icon" /> {location}
           </span>
           <span className="home__information">
-            <i className="bx bx-envelope home__icon" /> {email}
+
+<i className="bx bx-envelope home__icon" /> <a href={"mailto:"+email}>{email}</a>
           </span>
           <span className="home__information">
             <i className="bx bx-phone home__icon" /> {telephone}
