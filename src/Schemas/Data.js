@@ -174,15 +174,5 @@ export const Data = {
                 institution: "University of Engineering & Technologies Peshawar",
             },
         ],
-        proyects: [
-            // {
-            //     name: "Onboarding Digital",
-            //     company: "Banco de Chile",
-            //     period: "Nov. 2019 - Ene. 2020",
-            //     description: [
-            //         "Control, desarrollo, securitización y despliegue de APIs en plataforma IBM API Connect.",
-            //     ],
-            // }
-        ],
     },
 };
