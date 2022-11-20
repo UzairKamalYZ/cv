@@ -84,12 +84,17 @@ export const Data = {
                 description: [
                     " > Development and maintenance of Multi-Banking application with huge customer base.",
                     " > Applying modern day techniques for refactoring and keeping product quality upto the mark.",
-                    " > Working within agile teams with XP approaches",
-                    " > develop and maintain by applying test-driven & behaviour-driven development approaches with focus on quality. ",
+                    " > Working within Agile teams and applying XP approaches",
+                    " > New feature development and existing code improvements",
+                    " > Develop and maintain by applying TDD/BDD approaches with prime focus on quality. ",
+                    " > Maintaining and improvements of CI/CD pipelines",
+                    " > Support during release process",
+                    " > Incident resolution and enabling customers in achieving their business goals",
+                    " > Applying and improving Scrum ceremonies for delivering business values continuously",
                     "<strong>Technologies</strong>: <i>Java, Spring, Spring-Boot{Rest,Aop,Data,security}," +
                     " Oracle, Jenkins, Gitlab, Stash, JIRA, Docker,\n" +
                     "Junit4/5, Cucumber, Gherkin, Serenity, Cluecumber," +
-                        "OpenApi, JsonApi-Specs, Swagger,"+
+                    "OpenApi, JsonApi-Specs, Swagger,"+
                     " WhiteSource, Pact, Selenium, Keycloak, Vault, Agile(Less/Scrum)," +
                     " Openshift, Websphere, Vault," +
                     " reactJs, ExtJs, KeyCloak(basics)  </i>"
@@ -139,8 +144,13 @@ export const Data = {
                 description: [
                     " > Development of an AI powered search engine ",
                     " > Data Collection and training model with Machine Learning techniques",
-                    " > Advance searching based on similarity, phonetics," +
-                    " context, occurrences and strength of relationship between documents. "
+                    " > Advance searching based on similarity, phonetics",
+                    " context, occurrences and strength of relationship between documents. ",
+                    " > Exploring and experimenting with state of the art tools and technologies useful for the product.",
+                    "<strong>Technologies</strong>: <i>Java, Spring, Apache {Solr,Lucene,tika,flume,spark,hadoop,flume}" +
+                    "  Stanford NLP," +
+                    "MachineLearning, Weka, Opensource Ontologies, Restful and SOAP Webservices, Oracle DB" +
+                    "<i>"
                 ],
             }, {
                 title: "Associate Software Engineer",
